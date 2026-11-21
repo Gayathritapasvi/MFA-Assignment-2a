@@ -45,14 +45,12 @@ mfa align_one data\corpus\ISLE_SESS0131\ISLE_SESS0131_BLOCKD02_01_sprt1.wav data
 
 The pipeline invokes `align_one` for every pair. Optional corpus-level speaker-adapted alignment: `python scripts\run_pipeline.py --skip-download --mode corpus --jobs 1`. It may need more memory and generates a different alignment; do not mix the outputs without noting the method. The included outputs use `align_one`.
 
-**Quality warning:** the dictionary lacks `dukakis`, `wbur`, `melnicove`, `politicize`, and `maffy`, resulting in `<unk>` labels in two news TextGrids. The student reports manually checking the six WAV/TextGrid pairs in Praat and finding transcript order and durations consistent; the included screenshot documents one example. These remain model-generated alignments with no gold timing reference or numerical boundary-error score. Treat OOV word/phone labels cautiously.
+** warning:** the dictionary lacks `dukakis`, `wbur`, `melnicove`, `politicize`, and `maffy`, resulting in `<unk>` labels in two news TextGrids. 
 
 ## Submission links to add
 
 - Public GitHub repository: **add repository URL here after publishing**.
 - Public Drive link (if required): **add share link here and test it in a private browser window**.
-
-Do not submit these placeholders; replace them with working links. Confirm the audio/transcript redistribution terms before pushing data to a public repository. The included Praat screenshot is at `outputs/praat_manual_inspection_sample.png`; the sample chart is not a Praat screenshot.
 
 ## Source documentation
 
