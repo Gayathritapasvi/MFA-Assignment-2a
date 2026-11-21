@@ -47,10 +47,7 @@ The pipeline invokes `align_one` for every pair. Optional corpus-level speaker-a
 
 ** warning:** the dictionary lacks `dukakis`, `wbur`, `melnicove`, `politicize`, and `maffy`, resulting in `<unk>` labels in two news TextGrids. 
 
-## Submission links to add
 
-- Public GitHub repository: **add repository URL here after publishing**.
-- Public Drive link (if required): **add share link here and test it in a private browser window**.
 
 ## Source documentation
 
