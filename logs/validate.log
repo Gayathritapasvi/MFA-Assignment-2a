@@ -1,0 +1,35 @@
+Command: /home/user/mamba/envs/mfa/bin/mfa validate /home/user/MFA_Assignment/data/corpus english_us_arpa --ignore_acoustics --output_directory /home/user/MFA_Assignment/outputs/validation --clean -j 1
+
+ INFO     Setting up corpus information...                                      
+ INFO     Loading corpus from source files...                                   
+   6% ━━                                   6/100  [ 0:00:01 < -:--:-- , ? it/s ]
+ INFO     Found 2 speakers across 6 files, average number of utterances per     
+          speaker: 3.0                                                          
+ INFO     Initializing multiprocessing jobs...                                  
+ INFO     Normalizing text...                                                   
+ 100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6/6  [ 0:00:01 < 0:00:00 , ? it/s ]
+ INFO     Skipping acoustic feature generation                                  
+ INFO     Corpus                                                                
+ INFO     6 sound files                                                         
+ INFO     6 text files                                                          
+ INFO     2 speakers                                                            
+ INFO     6 utterances                                                          
+ INFO     97.163 seconds total duration                                         
+ INFO     Sound file read errors                                                
+ INFO     There were no issues reading sound files.                             
+ INFO     Feature generation                                                    
+ INFO     Acoustic feature generation was skipped.                              
+ INFO     Files without transcriptions                                          
+ INFO     There were no sound files missing transcriptions.                     
+ INFO     Transcriptions without sound files                                    
+ INFO     There were no transcription files missing sound files.                
+ INFO     Dictionary                                                            
+ INFO     Out of vocabulary words                                               
+ WARNING  22 OOV word types                                                     
+ WARNING  46 total OOV tokens                                                   
+ WARNING  For a full list of the word types, please see:                        
+          /home/user/MFA_Assignment/outputs/validation/oovs_found_english_us_arp
+          a.txt. For a by-utterance breakdown of missing words, see:            
+          /home/user/MFA_Assignment/outputs/validation/utterance_oovs.txt       
+ INFO     Skipping test alignments.                                             
+ INFO     Done! Everything took 33.748 seconds                                  

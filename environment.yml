@@ -1,0 +1,9 @@
+name: mfa-assignment
+channels:
+  - conda-forge
+channel_priority: strict
+dependencies:
+  - montreal-forced-aligner=3.4.3
+  - pysoundfile
+  - matplotlib
+  - reportlab

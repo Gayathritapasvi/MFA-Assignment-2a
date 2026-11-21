@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Do not publish the supplied recordings/transcripts unless redistribution is authorized.
+data/original/
+data/corpus/**/*.wav
+data/corpus/**/*.lab
+
+# MFA caches and temporary outputs, if created locally.
+.MFA/
+*.lock

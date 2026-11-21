@@ -1,0 +1,2 @@
+Command: /home/user/mamba/envs/mfa/bin/mfa align_one /home/user/MFA_Assignment/data/corpus/F2BJRLP/F2BJRLP1.wav /home/user/MFA_Assignment/data/corpus/F2BJRLP/F2BJRLP1.lab english_us_arpa english_us_arpa /home/user/MFA_Assignment/outputs/textgrids/F2BJRLP/F2BJRLP1.TextGrid --clean --overwrite
+

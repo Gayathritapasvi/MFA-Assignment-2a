@@ -1,0 +1,4 @@
+Command: /home/user/mamba/envs/mfa/bin/python /home/user/MFA_Assignment/scripts/prepare.py
+
+Prepared 6 pairs in /home/user/MFA_Assignment/data/corpus. Manifest: data/manifest.csv
+Review transcripts against audio, especially abbreviations and hyphens; original wording was not silently rewritten.

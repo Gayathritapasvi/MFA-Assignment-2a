@@ -1,0 +1,2 @@
+Command: /home/user/mamba/envs/mfa/bin/mfa align_one /home/user/MFA_Assignment/data/corpus/ISLE_SESS0131/ISLE_SESS0131_BLOCKD02_02_sprt1.wav /home/user/MFA_Assignment/data/corpus/ISLE_SESS0131/ISLE_SESS0131_BLOCKD02_02_sprt1.lab english_us_arpa english_us_arpa /home/user/MFA_Assignment/outputs/textgrids/ISLE_SESS0131/ISLE_SESS0131_BLOCKD02_02_sprt1.TextGrid --clean --overwrite
+
